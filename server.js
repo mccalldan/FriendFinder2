@@ -8,7 +8,7 @@ friends = require("../FriendFinder/app/friends.js");
 
 var app = express();
 
-var PORT = process.env.PORT || 3001;
+var PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function() {
     

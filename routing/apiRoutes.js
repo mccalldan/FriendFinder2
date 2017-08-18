@@ -8,6 +8,8 @@ app.get("/api/friends", function(req, res) {
 
 app.post("/api/friends", function(req, res) {
 
+	// Could not get this logic working in time, but this is what I was working on.
+
 	var	friendScores = [];
 
 		var newFriend 	= req.body;
